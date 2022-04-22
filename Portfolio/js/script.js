@@ -1,7 +1,4 @@
 let button = document.querySelector('.button');
-console.log(button)
-console.log('1325436')
-
 button.addEventListener('click', function(){
   console.log('run')
   window.scrollBy(0, 1000);
